@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script>
+        // "use strict"
+        // d =54;
+        let a = "Prashant"
+        // data types 
+        // Number , String, Boolean, undefined, null, Object
+        function hello(){
+            console.log("Hello Duniya");
+        }
+        for (let index = 0; index < 23 ; index++) {
+            hello();
+            
+        }
+        // Object 
+        let obj ={
+            r : 34,
+            m : 64,
+            func : function myfunc(Number) {
+                console.log("The number is " + Number);
+            }
+        }
+
+        document.addEventListener('click', function click(){
+            // alert("hello")
+            let conf = confirm("Are you Sure bhaiya");
+            console.log(conf);
+        })
+
+        // Array
+        let arr = [23,23,23,21];
+        // for each loop
+        arr.forEach(element => {
+            
+        });
+        console.log(a);
+
+        // callback
+        setTimeout(() => {
+            console.log("Ek ka Double")
+        }, 3000);
+        setTimeout(() => {
+            console.log("Kasi Hai")
+        }, 1000);
+        setTimeout(() => {
+            console.log("Ye Frod h")
+        }, 2000);
+        console.log("Babu Bhaiya")
+
+        // Promises -> Ya to Resolve hoti h Ya reject hoti hai 
+            
+        
+    </script>
+</head>
+<body>
+   <h1> Hello Ji</h1>
+</body>
+</html>
